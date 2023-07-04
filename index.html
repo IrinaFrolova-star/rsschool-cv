@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV / Frolova Irina</title>
+
+  <!--Подключаем bootstrap
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"> -->
+
+  <!--Подключаем стили-->
+  <link rel="stylesheet" href="./style.css">
+
+  <!--Подключаем шрифты-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald&display=swap"
+    rel="stylesheet">
+
+  <!--Фавикончик-->
+  <link rel="icon" href="/img/fav/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/img/fav/favicon.ico" type="image/x-icon">
+
+  <!--Подключаем анимацию-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+  <!--Вставляем кнопку-якорь-->
+  <a id="button"></a>
+
+  <!--Начало шапки сайта-->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <h1>Frolova Irina</h1>
+          <h2>Future Junior Front-end Developer</h2>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--Конец шапки сайта-->
+
+  <!--Начало меню сайта-->
+  <div class="menu">
+    <div class="container">
+      <nav class="navigation">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about-me">About me </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Code-example">Code example</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-me">Contact-me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Projects">Projects</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!--Конец меню сайта-->
+
+  <!--Начало содержимого сайта-->
+  <main>
+
+
+    <div class="container_coloumns">
+      <div class="section_left">
+        <img src="img/my.jpg" alt="my" width="305">
+        <h4> My scills:</h4>
+        <ul class="my_scills">
+
+          <li class="my_scills_li">HTML</li>
+          <li class="my_scills_li">CSS</li>
+          <li class="my_scills_li">JS</li>
+          <li class="my_scills_li">GIT</li>
+          <li class="my_scills_li">Figma</li>
+          <li class="my_scills_li">Bootstrap</li>
+          <li class="my_scills_li">English: A2+</li>
+        </ul>
+
+        <div class="underlined"></div>
+        <h4 id="contact-me">Contact me:</h4>
+        <ul class="contact_me">
+
+          <li class="contact_me_li">Discord: IrinaFrolova-star</li>
+          <li class="contact_me_li">Telegram: Irina Frolova</li>
+          <li class="contact_me_li">Email: ira.gorkunova.92@mail.ru </li>
+          <li class="contact_me_li">VKontakte: iragorkunova</li>
+        </ul>
+        <div class="underlined"></div>
+
+        <h4 id="Projects"> Projects:</h4>
+        <ul class="my_projects">
+
+          <li class="my_projects_li"><a href="#">Travels</a> </li>
+          <li class="my_projects_li"><a href="#">Amper</a> </li>
+        </ul>
+      </div>
+      <div class="section_right">
+        <h3 id="about-me">About me</h3>
+        <p class="about_me">
+          I am a graduate of South Ural State University. My specialty is my specialty is an
+          economist-lawyer. And now I am a beginner Front-End developer. My main qualities are the ability to
+          work in a team and the ability to learn quickly.
+        </p>
+        <h3 id="Education">Education</h3>
+        <ul class="education">
+          <li>
+            <strong> 06.2023 - present time:</strong> Rolling Scopes School. Course JS/Frontend-development. Stage #0
+          </li>
+          <li>
+            <strong>09.2022 - 11.2022:</strong> University "Synergy". Website layout (HTML5+CSS3)
+          </li>
+        </ul>
+        <h3 id="Code-example">Code example</h3>
+        <div class="code">
+          <pre>
+        <code>
+          function multiply(a, b) {
+            return [a[0] * b[0], a[1] * b[1]];
+          }
+          
+          function multiplyScalar(a, scalar) {
+            return [a[0] * scalar, a[1] * scalar];
+          }
+          
+          const s = 5;
+          const k = [1, 2];
+          const j = [2, 3];
+          
+          const v = multiply(k, j);
+          const result = multiplyScalar(v, s);
+          // [ 10, 30 ]
+        </code>
+      </pre>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <!--Конец содержимого сайта-->
+
+
+  <!--Начало подвала сайта-->
+  <footer>
+
+    <a href="https://github.com/IrinaFrolova-star" target="_blank" class="footer__content">My GitHub</a>
+
+    <a href="https://rs.school/js/" target="_blank" class="footer__content"><img
+        src="https://rs.school/images/rs_school_js.svg" alt="rs_school" width="150"></a>
+
+    <span class="footer__content">2023</span>
+
+
+  </footer>
+  <!--Конец подвала сайта-->
+
+
+  <!-- Подключаем js-->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+
+  <!-- Подключение jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</body>
+
+</html>
